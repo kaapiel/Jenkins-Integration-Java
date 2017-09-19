@@ -8,7 +8,7 @@ Esta é a integração, onde você pode realizar testes remotamente através de 
 
 ### Este é um repositório privado. Apenas pessoas autorizadas podem realizar alterações. ###
 
-* Android JenkinsIntegration
+* Java JenkinsIntegration
 * v0.01
 
 ### O que precisamos ter em mente antes de iniciar as configurações? ###
