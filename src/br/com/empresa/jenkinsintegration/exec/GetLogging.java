@@ -1,4 +1,4 @@
-package br.com.empresa.jenkinsintegration;
+package br.com.empresa.jenkinsintegration.exec;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,22 +8,25 @@ import java.net.URL;
 
 import org.apache.commons.codec.binary.Base64;
 
+import br.com.empresa.jenkinsintegration.config.Constants;
+
 public class GetLogging {
 
 	String logUrl;
 	
 	public String getLog(String jobName, int runId) throws IOException{
 		
-		logUrl = "http://localhost:8080/job/"+jobName+"/"+runId+"/consoleText";
+		logUrl = Constants.Links.HOST + "/view/" + Constants.Config.VIEW + 
+				"/job/"+jobName+"/"+runId+"/consoleText";
 		
-		String authString = "admin" + ":" + "admin";
+		String authString = Constants.Credentials.USER + ":" + Constants.Credentials.PASS;
 		byte[] authEncBytes = Base64.encodeBase64(authString.getBytes());
 		String authStringEnc = new String(authEncBytes);
 		
 		URL url = new URL(logUrl);
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		conn.setRequestMethod("GET");
-		conn.setRequestProperty("Authorization", "Basic "+ authStringEnc);
+		//conn.setRequestProperty("Authorization", "Basic "+ authStringEnc);
 		
 		BufferedReader in = new BufferedReader(
 		        new InputStreamReader(conn.getInputStream()));
