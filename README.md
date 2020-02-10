@@ -1,4 +1,5 @@
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
+# Jenkins Integration Java
+A powerful & easy to use Jenkins Integration using Java
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Jenkins-Integration&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Jenkins-Integration)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Jenkins-Integration&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_Jenkins-Integration)
@@ -7,9 +8,6 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Jenkins-Integration&metric=security_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Jenkins-Integration)
 ![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Jenkins-Integration-Java/master)
 [![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
-
-# Silk Integration Java
-A powerful & easy to use Jenkins Integration using Java
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
@@ -21,15 +19,6 @@ A powerful & easy to use Jenkins Integration using Java
 
 <h2 id="quick-start">Quick Start :chart_with_upwards_trend:</h2>
 Use this app to use Jenkins integrations with Java!
-
-<br/>
-
-<h2 id="examples">Examples :eyes:</h2>
-
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
 
 <br/>
 
