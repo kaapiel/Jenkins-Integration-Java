@@ -1,6 +1,12 @@
 # Jenkins Integration Java
 A powerful & easy to use Jenkins Integration using Java
 
+### To access SonarCloud data use this link: 
+#### https://sonarcloud.io/dashboard?id=kaapiel_Jenkins-Integration
+
+### To access pipeline and CI data use this link: 
+#### https://circleci.com/gh/kaapiel/Jenkins-Integration-Java
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Jenkins-Integration&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Jenkins-Integration)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Jenkins-Integration&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_Jenkins-Integration)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Jenkins-Integration&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Jenkins-Integration)
